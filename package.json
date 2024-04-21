@@ -2,13 +2,14 @@
   "name": "ai-platform",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
   "scripts": {
+    "commit": "git-cz",
+    "commit:all": "git add . &amp;&amp; git-cz",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
     "eslint": "eslint src/**/*.{js,vue} --fix src",
-    "lint": "lint-staged",
+    "lint-staged": "lint-staged",
     "format": "prettier .  --write",
     "prepare": "husky install"
   },
@@ -44,7 +45,10 @@
     "@vitejs/plugin-vue": "^1.2.3",
     "@vue/compiler-sfc": "^3.1.2",
     "colorpicker-v3": "^2.0.9",
+    "commitizen": "^4.3.0",
     "commitlint": "^19.2.2",
+    "commitlint-config-cz": "^0.13.3",
+    "cz-customizable": "^7.0.0",
     "eslint": "^9.1.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-vue": "^9.25.0",
@@ -59,11 +63,13 @@
     "not dead"
   ],
   "lint-staged": {
-    "src/**": "eslint"
-  },
-  "commitlint": {
-    "extends": [
-        "@commitlint/config-conventional"
+    "*.{js,vue}": [
+      "eslint --fix --max-warnings 0 "
     ]
-}
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  }
 }

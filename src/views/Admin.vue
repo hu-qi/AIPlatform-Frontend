@@ -361,7 +361,6 @@ export default {
     return {
       form,
       tableData,
-
       createUser,
       editVisible,
       value1,

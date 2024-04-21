@@ -1,5 +1,6 @@
-import pluginVue from 'eslint-plugin-vue'
-export default [
+const pluginVue =  require('eslint-plugin-vue')
+
+module.exports = [
   // add more generic rulesets here, such as:
   // js.configs.recommended,
   ...pluginVue.configs['flat/recommended'],
@@ -8,7 +9,7 @@ export default [
     rules: {
       // override/add rules settings here, such as:
       // 'vue/no-unused-vars': 'error'
-      'vue/multi-word-component-names': 'warn'
+      'vue/multi-word-component-names': 'off'
     }
   }
 ]
