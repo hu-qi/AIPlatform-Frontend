@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Material Design Icons";
-  src: url("/public/static/fonts/materialdesignicons-webfont.eot?v=6.5.95");
+  src: url("/static/fonts/materialdesignicons-webfont.eot?v=6.5.95");
   src:
-    url("/public/static/fonts/materialdesignicons-webfont.eot?#iefix&v=6.5.95")
+    url("/static/fonts/materialdesignicons-webfont.eot?#iefix&v=6.5.95")
       format("embedded-opentype"),
-    url("/public/static/fonts/materialdesignicons-webfont.woff2?v=6.5.95")
+    url("/static/fonts/materialdesignicons-webfont.woff2?v=6.5.95")
       format("woff2"),
-    url("/public/static/fonts/materialdesignicons-webfont.woff?v=6.5.95")
+    url("/static/fonts/materialdesignicons-webfont.woff?v=6.5.95")
       format("woff"),
-    url("/public/static/fonts/materialdesignicons-webfont.ttf?v=6.5.95")
+    url("/static/fonts/materialdesignicons-webfont.ttf?v=6.5.95")
       format("truetype");
   font-weight: normal;
   font-style: normal;

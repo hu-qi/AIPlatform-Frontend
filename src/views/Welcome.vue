@@ -47,7 +47,7 @@ export default {
       this.$refs.iframe.contentWindow.triggerByVue("通过Vue触发iframe中的方法");
     };
     return {
-      htmlSrc: "../../public/static/index.html",
+      htmlSrc: "/static/index.html",
       getiframeMsg,
       vueSendMsg,
       iframeMethods,
@@ -55,7 +55,7 @@ export default {
   },
   data() {
     return {
-      // htmlSrc: "../../public/static/index.html",
+      // htmlSrc: "../../static/index.html",
     };
   },
   mounted() {

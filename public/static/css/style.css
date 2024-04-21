@@ -23,42 +23,42 @@
 ************************/
 @font-face {
   font-family: "Cerebri Sans,sans-serif";
-  src: url("/public/static/fonts/cerebrisans-light.eot");
+  src: url("/static/fonts/cerebrisans-light.eot");
   src:
     local("Cerebri-sans Light"),
-    url("/public/static/fonts/cerebrisans-light.woff") format("woff");
+    url("/static/fonts/cerebrisans-light.woff") format("woff");
   font-weight: 300;
 }
 @font-face {
   font-family: "Cerebri Sans,sans-serif";
-  src: url("/public/static/fonts/cerebrisans-regular.eot");
+  src: url("/static/fonts/cerebrisans-regular.eot");
   src:
     local("Cerebri-sans Regular"),
-    url("/public/static/fonts/cerebrisans-regular.woff") format("woff");
+    url("/static/fonts/cerebrisans-regular.woff") format("woff");
   font-weight: 400;
 }
 @font-face {
   font-family: "Cerebri Sans,sans-serif";
-  src: url("/public/static/fonts/cerebrisans-medium.eot");
+  src: url("/static/fonts/cerebrisans-medium.eot");
   src:
     local("Cerebri-sans Medium"),
-    url("/public/static/fonts/cerebrisans-medium.woff") format("woff");
+    url("/static/fonts/cerebrisans-medium.woff") format("woff");
   font-weight: 500;
 }
 @font-face {
   font-family: "Cerebri Sans,sans-serif";
-  src: url("/public/static/fonts/cerebrisans-semibold.eot");
+  src: url("/static/fonts/cerebrisans-semibold.eot");
   src:
     local("Cerebri-sans Semibold"),
-    url("/public/static/fonts/cerebrisans-semibold.woff") format("woff");
+    url("/static/fonts/cerebrisans-semibold.woff") format("woff");
   font-weight: 600;
 }
 @font-face {
   font-family: "Cerebri Sans,sans-serif";
-  src: url("/public/static/fonts/cerebrisans-bold.eot");
+  src: url("/static/fonts/cerebrisans-bold.eot");
   src:
     local("Cerebri-sans Bold"),
-    url("/public/static/fonts/cerebrisans-bold.woff") format("woff");
+    url("/static/fonts/cerebrisans-bold.woff") format("woff");
   font-weight: 700;
 }
 .bg-primary {
@@ -1028,7 +1028,7 @@ html {
   width: 05px;
 }
 .footer.bg-light {
-  background-image: url("/public/static/images/footer-light-bg.png");
+  background-image: url("/static/images/footer-light-bg.png");
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -1039,7 +1039,7 @@ html {
   right: 0;
 }
 .footer .cta-content .cta-bg {
-  background-image: url("/public/static/images/cta-bg.png");
+  background-image: url("/static/images/cta-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1119,7 +1119,7 @@ html {
   box-shadow: none;
 }
 .hero-agency {
-  background-image: url("/public/static/images/agency/hero-bg.png");
+  background-image: url("/static/images/agency/hero-bg.png");
   background-size: cover;
   width: 100%;
   padding: 200px 0 40px;
@@ -1259,7 +1259,7 @@ html {
   position: relative;
   overflow: hidden;
   padding: 210px 0 160px;
-  background-image: url("/public/static/images/heros/hero-2-bg.png");
+  background-image: url("/static/images/heros/hero-2-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -1268,7 +1268,7 @@ html {
 .hero-3 {
   position: relative;
   padding: 170px 0 130px;
-  background-image: url("/public/static/images/heros/hero-3-bg.png");
+  background-image: url("/static/images/heros/hero-3-bg.png");
   width: 100%;
   background-color: #162938;
   background-size: cover;
@@ -1294,7 +1294,7 @@ html {
 }
 .hero-4 .hero-title::before {
   content: "";
-  background-image: url("/public/static/images/brush-shape.svg");
+  background-image: url("/static/images/brush-shape.svg");
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
@@ -1311,7 +1311,7 @@ html {
 .hero-5 {
   position: relative;
   padding: 170px 0 130px;
-  background-image: url("/public/static/images/heros/hero-5-bg.png");
+  background-image: url("/static/images/heros/hero-5-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1320,7 +1320,7 @@ html {
 .hero-6 {
   position: relative;
   padding: 240px 0 200px;
-  background-image: url("/public/static/images/heros/hero-6-bg.png");
+  background-image: url("/static/images/heros/hero-6-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1442,7 +1442,7 @@ html {
   .ucas {
     position: relative;
     padding: 170px 0 130px;
-    background-image: url("/public/static/images/heros/hero-3-bg.png");
+    background-image: url("/static/images/heros/hero-3-bg.png");
     width: 100%;
     background-color: #162938;
     background-size: cover;
