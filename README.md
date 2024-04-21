@@ -16,7 +16,7 @@
     <img src="https://img.shields.io/badge/%24-donate-ff69b4.svg" alt="donate">
   </a>
 
-基于 Vue3 + Element Plus 的后台管理系统解决方案。[线上地址](https://AIPlatform-Frontend.vercal.app)
+基于 Vue3 + Element Plus 的后台管理系统解决方案。[线上地址: https://aiplatform-frontend.vercel.app](https://AIPlatform-Frontend.vercel.app)
 
 ## 项目截图
 
